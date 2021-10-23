@@ -32,12 +32,12 @@ architecture for image denoising.
   </tr>
   
   <tr>
-    <td> <img src = "" width="400"> </td>
+    <td> <img src = "https://imgur.com/lV1CR4H.png" width="400"> </td>
     <td> <img src = "https://imgur.com/dOjxV93.png" width="400"> </td>
   </tr>
   <tr>
-    <td><p align="center"><b>Branch U-Net architecture</b></p></td>
-    <td><p align="center"> <b>Mixed Skip Connection (MSC)</b></p></td>
+    <td><p align="center"><b>Swin Transformer Layer</b></p></td>
+    <td><p align="center"> <b>Dual up-sample</b></p></td>
   </tr>
 </table>
 
