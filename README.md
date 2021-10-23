@@ -53,7 +53,7 @@ python demo.py --input_dir './demo_samples/' --result_dir './demo_results' --wei
 
 ## Result  
 
-<img src = "https://i.imgur.com/golsiWN.png" width="500">  
+<img src = "https://i.imgur.com/golsiWN.png" width="800">  
 
 
 
