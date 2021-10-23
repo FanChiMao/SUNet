@@ -51,4 +51,10 @@ Here is an example to perform Deraindrop:
 python demo.py --input_dir './demo_samples/' --result_dir './demo_results' --weights './pretrained_model/denoising_model.pth'
 ```
 
+## Result  
+
+<img src = "https://i.imgur.com/golsiWN.png" width="500">  
+
+
+
 
