@@ -55,6 +55,7 @@ python demo.py --input_dir './demo_samples/' --result_dir './demo_results' --wei
 
 <img src = "https://i.imgur.com/golsiWN.png" width="800">  
 
+## Visual Comparison  
 
-
+<img src = "https://i.imgur.com/UeeOO0M.png" width="800">  
 
