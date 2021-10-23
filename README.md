@@ -32,8 +32,8 @@ architecture for image denoising.
   </tr>
   
   <tr>
-    <td> <img src = "https://imgur.com/dOjxV93" width="400"> </td>
-    <td> <img src = "https://i.ibb.co/W0yk5hn/MSC.png" width="400"> </td>
+    <td> <img src = "" width="400"> </td>
+    <td> <img src = "https://imgur.com/dOjxV93.png" width="400"> </td>
   </tr>
   <tr>
     <td><p align="center"><b>Branch U-Net architecture</b></p></td>
