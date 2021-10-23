@@ -41,3 +41,14 @@ architecture for image denoising.
   </tr>
 </table>
 
+## Quick Run  
+To test the pre-trained models of denoising on your own images, run
+```
+python demo.py --input_dir images_folder_path --result_dir save_images_here --weights path_to_models
+```
+Here is an example to perform Deraindrop:
+```
+python demo.py --input_dir './demo_samples/' --result_dir './demo_results' --weights './pretrained_model/denoising_model.pth'
+```
+
+
