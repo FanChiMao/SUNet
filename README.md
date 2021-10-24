@@ -59,3 +59,19 @@ python demo.py --input_dir './demo_samples/' --result_dir './demo_results' --wei
 
 <img src = "https://i.imgur.com/UeeOO0M.png" width="800">  
 
+<details>  
+<summary>More Visual Comparison Figures (Click to expand)</summary>  
+
+</details>  
+
+
+## Citation  
+If you use SUNet, please consider citing:  
+```
+@inproceedings{,
+    title={},
+    author={Chi-Mao Fan, Tsung-Jung Liu, Kuan-Hsien Liu},
+    booktitle={ISCAS},
+    year={2022}
+}
+```
