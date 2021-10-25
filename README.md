@@ -46,9 +46,9 @@ To test the pre-trained models of denoising on your own images, run
 ```
 python demo.py --input_dir images_folder_path --result_dir save_images_here --weights path_to_models
 ```
-Here is an example to perform Deraindrop:
+Here is an example to perform denoising:
 ```
-python demo.py --input_dir './demo_samples/' --result_dir './demo_results' --weights './pretrained_model/denoising_model.pth'
+python demo_any_resolution.py --input_dir './demo_samples/' --result_dir './demo_results' --weights './pretrained_model/denoising_model.pth'
 ```
 ## Train  
 To train the restoration models of Denoising. You should check the following components:  
