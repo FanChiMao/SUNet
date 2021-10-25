@@ -53,8 +53,9 @@ python demo.py --input_dir './demo_samples/' --result_dir './demo_results' --wei
 ## Train  
 To train the restoration models of Denoising. You should check the following components:  
 - `training.yaml`:  
+
   ```
-      # Training configuration
+    # Training configuration
     GPU: [0,1,2,3]
 
     VERBOSE: False
@@ -97,10 +98,15 @@ To train the restoration models of Denoising. You should check the following com
       TRAIN_DIR: './datasets/Denoising_DIV2K/train'       # path to training data
       VAL_DIR: './datasets/Denoising_DIV2K/test' # path to validation data
       SAVE_DIR: './checkpoints'           # path to save models and images
-
-
   ```
+- Dataset:  
+  The preparation of dataset in more detail, see [datasets/README.md](datasets/README.md).  
   
+- Train:  
+  If the above path and data are all correctly setting, just simply run:  
+  ```
+  python train.py
+  ```  
 ## Result  
 
 <img src = "https://i.imgur.com/golsiWN.png" width="800">  
