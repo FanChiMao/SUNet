@@ -50,7 +50,57 @@ Here is an example to perform Deraindrop:
 ```
 python demo.py --input_dir './demo_samples/' --result_dir './demo_results' --weights './pretrained_model/denoising_model.pth'
 ```
+## Train  
+To train the restoration models of Denoising. You should check the following components:  
+- `training.yaml`:  
+  ```
+  # Training configuration
+GPU: [0,1,2,3]
 
+VERBOSE: False
+
+SWINUNET:
+  IMG_SIZE: 256
+  PATCH_SIZE: 4
+  WIN_SIZE: 8
+  EMB_DIM: 96
+  DEPTH_EN: [8, 8, 8, 8]
+  HEAD_NUM: [8, 8, 8, 8]
+  MLP_RATIO: 4.0
+  QKV_BIAS: True
+  QK_SCALE: 8
+  DROP_RATE: 0.
+  ATTN_DROP_RATE: 0.
+  DROP_PATH_RATE: 0.1
+  APE: False
+  PATCH_NORM: True
+  USE_CHECKPOINTS: False
+  FINAL_UPSAMPLE: 'Dual up-sample'
+
+MODEL:
+  MODE: 'Denoising'
+
+# Optimization arguments.
+OPTIM:
+  BATCH: 4
+  EPOCHS: 200
+  # EPOCH_DECAY: [10]
+  LR_INITIAL: 2e-4
+  LR_MIN: 1e-6
+  # BETA1: 0.9
+
+TRAINING:
+  VAL_AFTER_EVERY: 1
+  RESUME: False
+  TRAIN_PS: 256
+  VAL_PS: 256
+  TRAIN_DIR: './datasets/Denoising_DIV2K/train'       # path to training data
+  VAL_DIR: './datasets/Denoising_DIV2K/test' # path to validation data
+  SAVE_DIR: './checkpoints'           # path to save models and images
+
+
+  ```
+  
 ## Result  
 
 <img src = "https://i.imgur.com/golsiWN.png" width="800">  
