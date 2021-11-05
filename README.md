@@ -43,14 +43,20 @@ to UNet architecture for image denoising.
 </table>
 
 ## Quick Run  
-To test the pre-trained models of denoising on your own images, run
+To test the pre-trained models of denoising on your own 256x256 images, run
 ```
 python demo.py --input_dir images_folder_path --result_dir save_images_here --weights path_to_models
 ```
-Here is an example to perform denoising:
+Here is an example command:
 ```
-python demo_any_resolution.py --input_dir './demo_samples/' --result_dir './demo_results' --weights './pretrained_model/denoising_model.pth'
+python demo.py --input_dir './demo_samples/' --result_dir './demo_results' --weights './pretrained_model/denoising_model.pth'
 ```
+To test the pre-trained models of denoising on your arbitrary resolution images, run
+```
+python demo_any_resolution.py --input_dir images_folder_path --stride shifted_window_stride --result_dir save_images_here --weights path_to_models
+```
+SUNset could only handle the fixed size input which the resolution in training phase same as the mostly transformer-based methods because of the attention masks are fixed. If we want to denoise the arbitrary resolution input, the shifted-window method will be applied to avoid border effect. The code of `demo_any_resolution.py` is supported to fix the problem.
+
 ## Train  
 To train the restoration models of Denoising. You should check the following components:  
 - `training.yaml`:  
