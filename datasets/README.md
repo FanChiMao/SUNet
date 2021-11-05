@@ -4,7 +4,7 @@
 ## Tree  
   ```
   datasets
-    ├── Denoising_DIV2K
+    └── Denoising_DIV2K
          ├── test
          |     ├── input
          |     └── target    
