@@ -10,16 +10,17 @@
 
 ***
 > Abstract : Image restoration is a challenging ill-posed problem
-which also has been a long-standing issue. In the past few years
-ago, the convolution neural networks (CNN) almost dominated
-the compute vision and had achieved considerable success in different
-level of vision tasks including image restoration. However,
-the Swin Transformer-based model also shows impressive performance,
-even suppress the CNN-based methods to become the
-state-of-the-art on high-level vision tasks recently. In this paper,
-we proposed a restoration model called SUNet which uses the
-Swin Transformer layer as our basic blocks and apply to U-Net
-architecture for image denoising.
+which also has been a long-standing issue. In the past few
+years, the convolution neural networks (CNNs) almost dominated
+the computer vision and had achieved considerable success
+in different levels of vision tasks including image restoration.
+However, recently the Swin Transformer-based model also shows
+impressive performance, even surpasses the CNN-based methods
+to become the state-of-the-art on high-level vision tasks. In this
+paper, we proposed a restoration model called SUNet which uses
+the Swin Transformer layer as our basic block and then is applied
+to UNet architecture for image denoising.
+
 
 ## Network Architecture  
 
