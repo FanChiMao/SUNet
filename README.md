@@ -85,7 +85,7 @@ To train the restoration models of Denoising. You should check the following com
     # Optimization arguments.
     OPTIM:
       BATCH: 4
-      EPOCHS: 200
+      EPOCHS: 500
       # EPOCH_DECAY: [10]
       LR_INITIAL: 2e-4
       LR_MIN: 1e-6
