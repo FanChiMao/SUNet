@@ -43,7 +43,7 @@ to UNet architecture for image denoising.
 </table>
 
 ## Quick Run  
-To test the pre-trained models of denoising on your own 256x256 images, run
+To test the [pre-trained models]() of denoising on your own 256x256 images, run
 ```
 python demo.py --input_dir images_folder_path --result_dir save_images_here --weights path_to_models
 ```
