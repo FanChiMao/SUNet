@@ -2,7 +2,7 @@
 
 ## [Chi-Mao Fan](https://github.com/FanChiMao), Tsung-Jung Liu, Kuan-Hsien Liu  
 
-**Paper**: [https://drive.google.com/file/d/1hEyj-oo3V73Kh-VtoUmTXqkuEHA2dArC/view?usp=sharing](unofficial)  
+**Paper**: [unofficial](https://drive.google.com/file/d/1hEyj-oo3V73Kh-VtoUmTXqkuEHA2dArC/view?usp=sharing), official version will publish on IEEE after 
 
 **Video Presentation**:  
 
