@@ -2,7 +2,8 @@
 
 ## [Chi-Mao Fan](https://github.com/FanChiMao), Tsung-Jung Liu, Kuan-Hsien Liu  
 
-**Paper**: [unofficial version](https://drive.google.com/file/d/1hEyj-oo3V73Kh-VtoUmTXqkuEHA2dArC/view?usp=sharing), official version will publish on IEEE after ending of the ISCAS conference on 6/1.
+**Paper**: [unofficial version](https://drive.google.com/file/d/1hEyj-oo3V73Kh-VtoUmTXqkuEHA2dArC/view?usp=sharing), official version will publish on IEEE after ending of the ISCAS conference on 6/1.  
+[https://arxiv.org/abs/2202.14009](https://arxiv.org/abs/2202.14009)  
 
 **Video Presentation**:  
 
