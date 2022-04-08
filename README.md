@@ -1,9 +1,8 @@
 # [ISCAS 2022] SUNet: Swin Transformer with UNet for Image Denoising  
 
 ## [Chi-Mao Fan](https://github.com/FanChiMao), Tsung-Jung Liu, Kuan-Hsien Liu  
-
-[![paper](https://img.shields.io/badge/arXiv-Paper-brightgreen)](https://arxiv.org/abs/2202.14009)
 <!--[![supplement](https://img.shields.io/badge/Supplementary-Material-B85252)](https://drive.google.com/file/d/1mbfljawUuFUQN9V5g0Rmw1UdauJdckCu/view?usp=sharing)-->
+[![paper](https://img.shields.io/badge/arXiv-Paper-brightgreen)](https://arxiv.org/abs/2202.14009)
 [![video](https://img.shields.io/badge/Video-Presentation-F9D371)](https://youtu.be/XQsFxGaDTGk)
 [![slides](https://img.shields.io/badge/Presentation-Slides-B762C1)](https://docs.google.com/presentation/d/1IEQ7OMPTLgxwpjmRmXZmleAHInwsCdhY/edit?usp=sharing&ouid=108348190349543369603&rtpof=true&sd=true)  
 
