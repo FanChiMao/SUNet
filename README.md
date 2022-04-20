@@ -42,7 +42,7 @@ to UNet architecture for image denoising.
 </table>
 
 ## Quick Run  
-You can directly run personal noised images on my space of [HuggingFce](https://huggingface.co/spaces/52Hz/SUNet_AWGN_denoising).  
+You can directly run personal noised images on my space of [**HuggingFce**](https://huggingface.co/spaces/52Hz/SUNet_AWGN_denoising).  
 
 To test the [pre-trained models](https://drive.google.com/file/d/1ViJgcFlKm1ScEoQH616nV4uqFhkg8J8D/view?usp=sharing) of denoising on your own 256x256 images, run
 ```
