@@ -5,7 +5,7 @@
 [![paper](https://img.shields.io/badge/arXiv-Paper-brightgreen)](https://arxiv.org/abs/2202.14009)
 [![official_paper](https://img.shields.io/badge/IEEE-Paper-blue)]()
 [![video](https://img.shields.io/badge/Video-Presentation-F9D371)](https://youtu.be/XQsFxGaDTGk)
-[![slides](https://img.shields.io/badge/Presentation-Slides-B762C1)](https://docs.google.com/presentation/d/1IEQ7OMPTLgxwpjmRmXZmleAHInwsCdhY/edit?usp=sharing&ouid=108348190349543369603&rtpof=true&sd=true)  
+[![slides](https://img.shields.io/badge/Presentation-Slides-B762C1)](https://docs.google.com/presentation/d/1IEQ7OMPTLgxwpjmRmXZmleAHInwsCdhY/edit?usp=sharing&ouid=108348190349543369603&rtpof=true&sd=true)
 [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/52Hz/SUNet_AWGN_denoising)  
 
 ***
