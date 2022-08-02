@@ -139,4 +139,5 @@ If you use SUNet, please consider citing:
 }
 ```
 
-<center><img src='https://visitor-badge.glitch.me/badge?page_id=SUNet_github' alt='visitor badge'></center>
+![visitors](https://visitor-badge.glitch.me/badge?page_id=SUNet_github)  
+
