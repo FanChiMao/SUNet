@@ -65,7 +65,7 @@ To train the restoration models of Denoising. You should check the following com
 
   ```
     # Training configuration
-    GPU: [0,1,2,3]
+    GPU: [0,1,2,3] 
 
     VERBOSE: False
 
