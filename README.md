@@ -131,11 +131,13 @@ To train the restoration models of Denoising. You should check the following com
 ## Citation  
 If you use SUNet, please consider citing:  
 ```
-@article{fan2022sunet,
-  title={SUNet: Swin Transformer UNet for Image Denoising},
+@inproceedings{fan2022sunet,
+  title={SUNet: swin transformer UNet for image denoising},
   author={Fan, Chi-Mao and Liu, Tsung-Jung and Liu, Kuan-Hsien},
-  journal={arXiv preprint arXiv:2202.14009},
-  year={2022}
+  booktitle={2022 IEEE International Symposium on Circuits and Systems (ISCAS)},
+  pages={2333--2337},
+  year={2022},
+  organization={IEEE}
 }
 ```
 
