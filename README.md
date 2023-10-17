@@ -141,5 +141,5 @@ If you use SUNet, please consider citing:
 }
 ```
 
-![visitors](https://visitor-badge.glitch.me/badge?page_id=SUNet_github)  
+![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FFanChiMao%2FSUNet&label=visitors&countColor=%232ccce4&style=plastic)  
 
